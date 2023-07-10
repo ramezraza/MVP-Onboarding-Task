@@ -1,0 +1,66 @@
+﻿
+
+
+
+.modal-body {
+    padding: 15px 25px;
+    box-shadow: 1px 1px 10px grey;
+    border: 1px solid grey;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: rgba(230,230,230,0.8);
+    color: Black;
+    border: 1px solid grey;
+}
+
+
+.modal-footer {
+    padding: 8px 16px;
+    background-color: rgba(230,230,230,0.8);
+    border: 1px solid grey;
+}
+
+.modal-content {
+    opacity: 1;
+    position: relative;
+    background-color: #fefefe;
+    margin: 50px 25% 0 35%;
+    padding: 0;
+    border: 1px solid black;
+    width: 60%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0),0 6px 12px 0 rgba(0,0,0,0.9);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    max-width: 500px;
+}
+
+.modal-title {
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal-popup {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(120,120,120,0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
